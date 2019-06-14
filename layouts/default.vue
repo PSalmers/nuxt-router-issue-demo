@@ -3,6 +3,9 @@
     <input type="checkbox" v-model="$store.state.useEmptyComponent"> Use Empty Component
     <input type="checkbox" v-model="$store.state.goToPath2"> Go To Path 2
     <nuxt-link to="/path0">Path 0</nuxt-link>
+    <nuxt-link to="/agenericpage">A Generic Page</nuxt-link>
+    <nuxt-link to="/agenericpage2">A Generic Page 2</nuxt-link>
+    <nuxt-link to="/plainempty">An empty page without redirects</nuxt-link>
     <nuxt />
   </div>
 </template>
