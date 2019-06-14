@@ -1,5 +1,3 @@
-import pathOneGo from "./plugins/pathOneGo";
-
 export default {
   mode: 'spa',
   /*
@@ -16,9 +14,6 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  router: {
-    middleware: ["pageRedirections"]
-  },
   /*
   ** Customize the progress-bar color
   */
@@ -32,13 +27,11 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    "plugins/pathOneGo"
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
-    "@nuxtjs/axios"
   ],
   /*
   ** Build configuration
