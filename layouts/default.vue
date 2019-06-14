@@ -1,15 +1,11 @@
 <template>
-  <div>
+  <div class="container">
+    <input type="checkbox" v-model="$store.state.useEmptyComponent"> Use Empty Component
+    <input type="checkbox" v-model="$store.state.goToPath2"> Go To Path 2
+    <nuxt-link to="/path0">Path 0</nuxt-link>
     <nuxt />
   </div>
 </template>
-
-<script>
-export default {
-  middleware: ["pageRedirections"]
-}
-</script>
-
 
 <style>
 html {

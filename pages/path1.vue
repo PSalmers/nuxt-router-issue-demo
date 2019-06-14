@@ -5,6 +5,5 @@
 
 <script>
 export default {
-  layout: "nondefault"
 }
 </script>

@@ -17,7 +17,7 @@ export default {
     ]
   },
   router: {
-    middleware: []
+    middleware: ["pageRedirections"]
   },
   /*
   ** Customize the progress-bar color

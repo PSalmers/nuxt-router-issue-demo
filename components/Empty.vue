@@ -1,9 +1,13 @@
 <template>
-  <div v-if="false"></div>
+  <div v-if="amIAuthorizedOrLoadedYet"></div>
 </template>
 
 <script>
 export default {
-  
-}
+  data() {
+    return {
+      amIAuthorizedOrLoadedYet: false
+    };
+  }
+};
 </script>
